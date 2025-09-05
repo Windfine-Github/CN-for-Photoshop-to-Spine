@@ -610,7 +610,7 @@ function showSettingsDialog () {
 				ignoreHiddenLayersCheckbox.value = settings.ignoreHiddenLayers;
 				var ignoreBackgroundCheckbox = group.add("checkbox", undefined, " 忽略背景图层");
 				ignoreBackgroundCheckbox.value = settings.ignoreBackground;
-				var trimWhitespaceCheckbox = group.add("checkbox", undefined, " 修建透明像素");
+				var trimWhitespaceCheckbox = group.add("checkbox", undefined, " 修剪透明像素");
 				trimWhitespaceCheckbox.value = settings.trimWhitespace;
 			group = checkboxGroup.add("group");
 				group.orientation = "column";
